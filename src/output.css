@@ -554,19 +554,45 @@ video {
   display: none;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.hidden {
+  display: none;
 }
 
-.font-bold {
-  font-weight: 700;
+.h-\[\] {
+  height: ;
 }
 
-.underline {
-  text-decoration-line: underline;
+.h-\[50px\] {
+  height: 50px;
+}
+
+.bg-\[\#D4E9F9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 233 249 / var(--tw-bg-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
+  }
 }
